@@ -1,0 +1,17 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jean Carlos Piguave Alvarado <piguavejc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "serialport": "^9.2.8",
+    "socket.io": "^4.4.0"
+  }
+}
